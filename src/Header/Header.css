@@ -1,0 +1,52 @@
+.Header {
+    background-size: cover;
+        height: 700px;
+        background-image: url(../Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+    background-color:#d24d57;
+    background-blend-mode: multiply;
+    background-position: 30% 20%;
+    }
+
+    h1 {
+        position: relative;
+        margin-top:0;
+        color:white;
+        text-align: center;
+        font-size: 60px;
+        text-transform: uppercase;
+        top:180px;
+        font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    }
+
+    h2{
+        position: relative;
+        margin-top:0;
+        color:white;
+        text-align: center;
+        font-size: 25px;
+        top:200px;
+        font-family: "ff-meta-serif-web-pro", Georgia, serif;
+    }
+    .button1 {
+        position: absolute;
+        background-color:transparent;
+        opacity: 0.9;
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 25px 82px;
+        text-align: center;
+        text-decoration: none;
+        font-family: "ff-meta-serif-web-pro", Georgia, serif;
+        display: inline-block;
+        font-size: 22px;
+        margin: 8px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        top: 55%;
+        left: 40%;
+    }
+    
+    button:hover {
+        background-color: #fff;
+        color: #d24d57;
+    }

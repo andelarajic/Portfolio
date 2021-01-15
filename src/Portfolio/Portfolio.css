@@ -1,0 +1,22 @@
+body {
+    background-color:#f8f8f8;
+    border-bottom: 1px solid #f1f1f1;
+   
+  }
+  .Portfolio {
+    position: relative;
+      color:#3b3838;
+     top: 640px;
+     font-size:50px;
+     font-family: Raleway, sans-serif;
+  }
+  p {
+ 
+color:#706f6f;
+position: relative;
+font-family: Raleway, sans-serif;
+font-size:25px;
+top: 620px;
+text-align: center;
+padding: 50px 50px;
+}

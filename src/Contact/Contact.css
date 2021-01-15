@@ -1,0 +1,35 @@
+.Contact {
+    background-color: #d24d57;
+    position: relative;
+ top: 650px;
+    height: 400px;
+   
+        
+    }
+    
+    .Contact h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 47px;
+    top:40px;
+    font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
+    }
+    
+    .Contact p {
+    position: relative;
+    color:white;
+    top: 20px;
+    text-align: center;
+    font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    }
+    
+    .Icons {
+        color:white;
+      position: relative;
+      text-align: center;
+      left: 590px;
+      margin: 0 20px;
+      top: 20px;
+        
+    }
