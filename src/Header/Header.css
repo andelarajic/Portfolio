@@ -1,4 +1,4 @@
-.Header {
+.Header1 {
     background-size: cover;
         height: 700px;
         background-image: url(../Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
@@ -7,7 +7,7 @@
     background-position: 30% 20%;
     }
 
-    h1 {
+   .Header1 h1 {
         position: relative;
         margin-top:0;
         color:white;
@@ -18,7 +18,7 @@
         font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
     }
 
-    h2{
+     .Header1 h2{
         position: relative;
         margin-top:0;
         color:white;
