@@ -29,27 +29,36 @@
         
     }
     .button1 {
-        display: block;
-        position: relative;
+       
+        margin: 300px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 25px 90px;
         background-color:transparent;
         opacity: 0.9;
         border: 2px solid #fff;
         color: #fff;
-        padding: 25px 82px;
-        text-align: center;
         text-decoration: none;
         font-family: "ff-meta-serif-web-pro", Georgia, serif;
-        display: inline-block;
         font-size: 22px;
-        margin: 8px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        top: 280px;
-        left: 540px;
         text-transform: uppercase;
+        cursor:pointer;
+
     }
     
     button:hover {
         background-color: #fff;
         color: #d24d57;
+    }
+
+  
+    @media only screen and (max-width: 900px) {
+  .Header1 h2 {
+      font-size: 20px;
+  }
+    
     }

@@ -31,3 +31,10 @@
 left: 150px;
 border-radius: 60%;
 }
+
+@media only screen and (max-width: 900px) {
+
+    .MyImage {
+        width: 200px;
+    }
+}

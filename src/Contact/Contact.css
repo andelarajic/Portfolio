@@ -1,4 +1,5 @@
 .Contact {
+ 
     background-color: #252525;
     height: 400px;
     margin-top:0;
@@ -8,7 +9,7 @@
       position: relative;
       top: 60px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: #fff;
     text-transform: uppercase;
     font-size: 43px;
     font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
@@ -17,17 +18,56 @@
     .Contact p {
       position: relative;
       top: 70px;
-    color:rgba(255, 255, 255, 0.3);
+    color:#fff;
     text-align: center;
     font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
     font-size: 25px;
     }
-    
-    .Icons {
-        color:rgba(255, 255, 255, 0.3);
-      position: relative;
-      text-align: center;
-      left: 580px;
-      top: 100px;
-     margin: 0 20px;
+      
+    ul.social-set {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      height: auto;
+      width: auto;
     }
+    ul.social-set li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    /* Font Awesome icons */
+    a.sociali {
+      background: #accfc0;
+      color: #fff;
+      margin-bottom: 10px !important;
+     
+    }
+    a.sociali:hover, a.sociali:focus {
+      background: #6d8785;
+    }
+    
+
+@media only screen and (max-width: 900px) {
+  .Icons {
+    width: 300px;
+  }
+}
