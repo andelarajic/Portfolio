@@ -5,11 +5,13 @@
 }
 
 .AboutMe h1 {
-    text-align: center;
+    text-align: right;
+    left:-359px;
     color: #fff;
     position: relative;
     top:40px;
     font-size: 45px;
+    text-transform: uppercase;
 }
 
 .AboutMe p {

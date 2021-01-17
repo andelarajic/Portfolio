@@ -26,9 +26,11 @@
         font-size: 25px;
         top:200px;
         font-family: "ff-meta-serif-web-pro", Georgia, serif;
+        
     }
     .button1 {
-        position: absolute;
+        display: block;
+        position: relative;
         background-color:transparent;
         opacity: 0.9;
         border: 2px solid #fff;
@@ -42,8 +44,9 @@
         margin: 8px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        top: 55%;
-        left: 40%;
+        top: 280px;
+        left: 540px;
+        text-transform: uppercase;
     }
     
     button:hover {
