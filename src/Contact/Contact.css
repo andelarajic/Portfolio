@@ -1,14 +1,14 @@
 .Contact {
-    background-color: #d24d57;
-    height: 300px;
-    margin-top:50px;
+    background-color: #252525;
+    height: 400px;
+    margin-top:0;
     }
     
     .Contact h1 {
       position: relative;
-      top: 20px;
+      top: 60px;
     text-align: center;
-    color:white;
+    color: rgba(255, 255, 255, 0.3);
     text-transform: uppercase;
     font-size: 43px;
     font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
@@ -16,18 +16,18 @@
     
     .Contact p {
       position: relative;
-      top: 20px;
-    color:white;
+      top: 70px;
+    color:rgba(255, 255, 255, 0.3);
     text-align: center;
     font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
     font-size: 25px;
     }
     
     .Icons {
-        color:white;
+        color:rgba(255, 255, 255, 0.3);
       position: relative;
       text-align: center;
       left: 580px;
-      top: 30px;
-      margin: 0 20px;
+      top: 100px;
+     margin: 0 20px;
     }

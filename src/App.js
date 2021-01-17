@@ -5,6 +5,7 @@ import Portfolio from "./Portfolio/Portfolio"
 import Contact from "./Contact/Contact"
 import Projekt from "./Projekt/Projekt"
 import "./FontAwsomeIcons/FontAwsome"
+import AboutMe from "./AboutMe/AboutMe"
 
 
 
@@ -12,10 +13,11 @@ import "./FontAwsomeIcons/FontAwsome"
 class App extends Component {
   render () {
   return (
-    <div>
+    <div className="Body">
     <Header/>
     <Portfolio/>
     <Projekt/>
+    <AboutMe/>
     <Contact/>
     </div>
   );

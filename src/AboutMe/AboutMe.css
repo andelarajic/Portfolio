@@ -1,0 +1,31 @@
+.AboutMe {
+ height: 500px;
+ background-color: #d24d57;
+ margin-bottom: -30px;
+}
+
+.AboutMe h1 {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top:40px;
+    font-size: 45px;
+}
+
+.AboutMe p {
+    position: relative;
+    top:100px;
+    width: 50%;
+    left: -80px;
+    float: right;
+    color:#fff;
+
+}
+
+.MyImage {
+    width: 350px;
+   position: relative;
+   top:10px;
+left: 150px;
+border-radius: 60%;
+}
