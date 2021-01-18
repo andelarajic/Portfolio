@@ -2,39 +2,118 @@
  height: 500px;
  background-color: #d24d57;
  margin-bottom: -30px;
+
+    
 }
 
 .AboutMe h1 {
-    text-align: right;
-    left:-359px;
-    color: #fff;
-    position: relative;
-    top:40px;
-    font-size: 45px;
-    text-transform: uppercase;
+float: left;
+width: 50%;
+color:#fff;
+position: relative;
+top:30px;
+text-align: center;
 }
 
 .AboutMe p {
-    position: relative;
-    top:100px;
-    width: 50%;
-    left: -80px;
-    float: right;
-    color:#fff;
-
+    float: left;
+  width: 50%;
+  position: relative;
+  text-align: center;
+top:80px;
+color: #fff;
 }
 
 .MyImage {
-    width: 350px;
-   position: relative;
-   top:10px;
-left: 150px;
-border-radius: 60%;
+float: right;
+border-radius: 80%;
+position: relative;
+top:20px;
+left: -50px;
 }
 
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 950px) {
+   
 
     .MyImage {
-        width: 200px;
+        width: 40%;
+        position: relative;
+     top:60px;
+
+     }
     }
-}
+    @media only screen and (max-width: 880px) {
+   
+
+        .MyImage {
+            width: 40%;
+            position: relative;
+         top:100px;
+     
+         }
+         .AboutMe h1 {
+            position: relative;
+            top: 70px;
+                 
+             }
+         
+             .AboutMe p {
+             
+                 position: relative;
+                 top:150px;
+             
+             }
+        }
+        @media only screen and (max-width: 680px) {
+   
+
+            .MyImage {
+                width: 38%;
+                position: relative;
+             top:150px;
+             
+         
+             }
+             .AboutMe h1 {
+                position: relative;
+                top: 80px;
+                     font-size: 20px;
+                 }
+             
+                 .AboutMe p {
+                 
+                     position: relative;
+                     top:190px;
+                     font-size: 15px;
+                 }
+            }
+            @media only screen and (max-width: 400px) {
+                .AboutMe {
+                     display: flex;
+                    flex-flow: row wrap;
+                   
+                  }
+                  .MyImage {
+                    width: 40%;
+                    height: 170px;
+                    position: relative;
+                 top:130px;
+                 left: 115px;
+                
+                 }
+                 .AboutMe h1 {
+                    position: relative;
+                    top: 40px;
+                     font-size: 20px;
+                     left: -58px;
+                     }
+                 
+                     .AboutMe p {
+                     
+                         position: relative;
+                         top:80px;
+                         left: 96px;
+                         font-size: 15px;
+                     }
+                }
