@@ -1,6 +1,6 @@
 import React from "react"
-import "./AboutMe.css"
-import myImage from "../Images/MyImage.jpg"
+import "../AboutMe/AboutMe.css"
+import myImage from "../../Images/MyImage.jpg"
 
 
 

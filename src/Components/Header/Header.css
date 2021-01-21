@@ -1,13 +1,13 @@
 .Header1 {
     background-size: cover;
         height: 700px;
-        background-image: url(../Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+        background-image: url(/src/Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
     background-color:#d24d57;
     background-blend-mode: multiply;
     background-position: 30% 20%;
     }
 
-   .Header1 h1 {
+.Header1 h1 {
         position: relative;
         margin-top:0;
         color:white;

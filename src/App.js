@@ -1,11 +1,11 @@
 import { Component } from 'react';
 import './App.css';
-import Header from "./Header/Header";
-import Portfolio from "./Portfolio/Portfolio"
-import Contact from "./Contact/Contact"
-import Projekt from "./Projekt/Projekt"
-import "./FontAwsomeIcons/FontAwsome"
-import AboutMe from "./AboutMe/AboutMe"
+import Header from "./Components/Header/Header";
+import Portfolio from "./Components/Portfolio/Portfolio"
+import Contact from "./Components/Contact/Contact"
+import Projekt from "./Components/Projekt/Projekt"
+import "./Components/FontAwsomeIcons/FontAwsome"
+import AboutMe from "./Components/AboutMe/AboutMe"
 
 
 
