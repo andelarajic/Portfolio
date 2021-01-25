@@ -1,4 +1,4 @@
-.Header1 {
+.Header {
     background-size: cover;
         height: 700px;
         background-image: url(/src/Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
@@ -7,7 +7,7 @@
     background-position: 30% 20%;
     }
 
-.HeaderH1 {
+.Headerh1 {
         position: relative;
         margin-top:0;
         color:white;
