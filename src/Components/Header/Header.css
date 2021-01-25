@@ -18,7 +18,7 @@
         font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
     }
 
-     .Header1 h2{
+     .Headerh2{
         position: relative;
         margin-top:0;
         color:white;
@@ -64,4 +64,70 @@
     padding: 15px 50px;
   }
     
-    }
+}
+
+.Weather {
+    margin-top:0;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    border:white;
+    background-color: white;
+}
+
+.Input {
+    background-color:#fff;
+    opacity: 0.9;
+   border:none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #f9f9f9;
+    transition: 0.3s;
+    opacity: 0.7;
+   background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.879);
+  }
+
+  .City {
+    font-family:"brandon-grotesque", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .Temp {
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  .Desc {
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .Input2 {
+    
+      text-decoration: none;
+      font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+      text-decoration: uppercase;
+    border:none;
+      color:black;
+      font-size:14px;
+  }
+
+  .Input1 {
+    border:none;
+    text-decoration: none;
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    text-decoration: uppercase;
+    color:black;
+    border-bottom: 2px solid black;
+    font-size:14px;
+    margin: 0 9px;
+  }

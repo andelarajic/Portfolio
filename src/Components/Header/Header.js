@@ -5,9 +5,15 @@ import "../../Components/Header/Header.css"
 
 
 const Header = () => {
+
     const [temperature, setTemperature] = useState("");
-    const [city, setCity] = useState("City");
+    const [city, setCity] = useState("");
     const [desc, setDesc] =useState("");
+
+function input() {
+
+    
+}
 
     const getWeatherData = (city) => {
         axios({
@@ -23,22 +29,27 @@ const Header = () => {
             console.log(error);
         });
     };
-
-    return (
-        <div>
-    <div className="Header1">
    
-    {Math.round(temperature * 100) / 100} ℃ - {desc}
-
-    <input type="text" value={city} onChange={(e) =>setCity(e.target.value)}/>
-    <button onClick={() => {
+    return (
+        <div className="Header1">
+    <div className="Weather">
+    <div className="card">
+    <div className="Input" >
+    <input className="Input1" type="text" placeholder="Enter Location" onChange={(e) =>setCity(e.target.value)}/>
+    <button className="Input2" onClick={() => {
         getWeatherData(city);
-    }}> GET</button>
+    }}> Get Weather</button>
+    </div>
+   <h1 className="City">{city}</h1>
+    <h2 className="Temp" value="" onChange={(e) =>setTemperature(e.target.value)}>{Math.round(temperature * 100) / 100} ℃ </h2>
+    <h3 className="Desc">{desc}</h3>
+    </div>
+    </div>
     <h1 className="HeaderH1">Andela Rajic</h1>
-    <h2>Hi, I'm a Front-end Developer. I produce elegant,performant and accessible website.</h2>
+    <h2 className="Headerh2">Hi, I'm a Front-end Developer. I produce elegant,performant and accessible website.</h2>
     <button className= "button1">Check my work</button>
     </div>
-    </div>
+    
     )
 };
 
