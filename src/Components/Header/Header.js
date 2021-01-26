@@ -11,7 +11,7 @@ const Header = () => {
     <Weather/>
     <h1 className="Headerh1">Andela Rajic</h1>
     <h2 className="Headerh2">Hi, I'm a Front-end Developer. I produce elegant,performant and accessible website.</h2>
-    <button className= "button1">Check my work</button>
+    <button className= "button1" href="">Check my work</button>
     </div>
     )};
 
