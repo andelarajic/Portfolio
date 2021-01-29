@@ -19,9 +19,10 @@ class App extends Component {
     <Projekt/>
     <AboutMe/>
     <Contact/>
-    </div>
-  );
+    </div> 
+    
+  )}
 }
-}
+
 
 export default App;

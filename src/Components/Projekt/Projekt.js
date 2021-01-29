@@ -7,12 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const projekt = () => {
-    return <div className="Project">
+    return (
+    <div id="projekt" className="Project">
  <h1 className="Text">Gaming History!</h1>
  <hr className="hr"/>
  <p className="AboutP">Gaming history is a responsiv website about games that were popular such as Super Mario and Zelda.</p>
  <img className="Image" src={myWork} alt="Game websida"></img>
- <a className="Source" href="https://github.com/andelarajic/game-project">
+ <a className="Source" href="https://github.com/andelarajic/SuperMario">
 			<FontAwesomeIcon icon={['fab', 'github']}/>Source</a>
  <hr className="hr2"/>
   <h1 className="Text">Hotel Marina</h1>
@@ -29,7 +30,7 @@ const projekt = () => {
   <a className="Source" href="https://github.com/andelarajic/fe20tp1_Ink">
 			<FontAwesomeIcon icon={['fab', 'github']}/>Source</a>
     </div>
-};
+    )};
 
 
 
