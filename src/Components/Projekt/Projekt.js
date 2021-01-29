@@ -32,7 +32,4 @@ const projekt = () => {
     </div>
     )};
 
-
-
-
 export default projekt;
