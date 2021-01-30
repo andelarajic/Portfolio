@@ -11,7 +11,7 @@ const Weather = () => {
     const getWeatherData = (city) => {
         axios({
             method: "GET",
-            url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=e0e9386da1077c731a4790d52287872a`
+            url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=e0e9386da1077c731a4790d52287872a`
         })
         .then((response) => {
             setCity(city)
