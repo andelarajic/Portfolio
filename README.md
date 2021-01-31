@@ -17,3 +17,32 @@ Portfolio is websidan about me and my skills. You can se my projects there also.
     </li>
   </ol>
 </details>
+
+
+About The Project
+======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Built With
+
+[React](https://reactjs.org/)
+
+
+
+### Contact
+========
+
+Andela Rajic - andjelarajic1@gmail.com
