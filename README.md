@@ -1,8 +1,8 @@
-Alt-Portfolio
+Portfolio
 ======
 
 
-Alt-Portfolio is websidan about me and my skills. You can se my projects there also.
+Portfolio is websidan about me and my skills. You can se my projects there also.
 ------
 
 <details open="open">
