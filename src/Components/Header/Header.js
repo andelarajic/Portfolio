@@ -12,7 +12,7 @@ const Header = () => {
     <Weather/>
    <h1 className="Headerh1">Andela Rajic</h1>
     <h2 className="Headerh2">Hi, I'm a Front-end Developer. I produce elegant,performant and accessible website.</h2>
-    <li><Link className="button1" to="projekt" spy={true} smooth={true}>Check my work</Link></li>
+   <Link className="button1" to="projekt" spy={true} smooth={true}>Check my work</Link>
    </div>
 )};
 
