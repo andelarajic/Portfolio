@@ -3,24 +3,22 @@ Portfolio
 
 
 ### This is a portfolio about me and my skills. Here you will find some projects of mine. 
-
-<br/>
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li>
-      <a href="#about-the-project">About This Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#contact">Contact Information</a></li>
-      </ul>
+      <a href="#about-this-project">About This Project</a>
     </li>
-  </ol>
-</details><br/>
-
+    <li>
+      <a href="#built-with">Built With</a>
+    </li>
+    <li>
+      <a href="#contact-information">Contact Information</a>
+    </li>
+  </ul>
+</details>
 
 ### About This Project
-
 This project is a portfolio about me, my current skills and abilities. Here you will find my projects which will demonstrate my knowledge related to frontend development. Here on this site you will be able to find my contact information, for exemple LinkedIn, where you can contact me for any collaborations. 
 Beside my past projects I build a weather widget using an Api request which sends input data in terms city names and gives back weather information like temperature  and weather description.
 
