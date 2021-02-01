@@ -2,33 +2,30 @@ Portfolio
 ======
 
 
-### Portfolio is websidan about me and my skills. You can se my projects there also. 
+### This is a portfolio about me and my skills. Here you will find some projects of mine. 
 
 <br/>
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About This Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact Information</a></li>
       </ul>
     </li>
   </ol>
 </details><br/>
 
 
-## About The Project
+### About This Project
 
-Portfolio website is about me, my skills and my inserts . On this website you can see my project also which show my knowledge related to frontend developers. On the portfolio website there are also my contacts where you can contact me for further collaborations. 
-I used Api request for (mala rec stefanova) so you can write a name og city to see what is the current temperature in that city.
-
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
+This project is a portfolio about me, my current skills and abilities. Here you will find my projects which will demonstrate my knowledge related to frontend development. Here on this site you will be able to find my contact information, for exemple LinkedIn, where you can contact me for any collaborations. 
+Beside my past projects I build a weather widget using an Api request which sends input data in terms city names and gives back weather information like temperature  and weather description.
 
 ### Built With
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 * [React](https://reactjs.org/)
 * [JavaScript](https://developer.mozilla.org/sv-SE/docs/Web/JavaScript)
@@ -37,7 +34,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 * [Ajax](https://www.w3schools.com/js/js_ajax_intro.asp)
 * [Axios](https://www.sitepoint.com/axios-beginner-guide/) <br/>
 
-### Contact
+### Contact Information
 
 Andela Rajic <br/>
 Github - andjelarajic1@gmail.com <br/>
