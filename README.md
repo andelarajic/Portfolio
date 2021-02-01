@@ -9,7 +9,7 @@ Portfolio is websidan about me and my skills. You can se my projects there also.
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href=>About The Project</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href=>Built With</a></li>
         <li><a href=>Contact</a></li>
@@ -19,7 +19,7 @@ Portfolio is websidan about me and my skills. You can se my projects there also.
 </details>
 
 
-About The Project
+##About The Project
 ======
 
 
