@@ -2,8 +2,8 @@ Portfolio
 ======
 
 
-Portfolio is websidan about me and my skills. You can se my projects there also.
-------
+## Portfolio is websidan about me and my skills. You can se my projects there also.
+
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -48,5 +48,8 @@ Portfolio is websidan about me and my skills. You can se my projects there also.
 ### Contact
 
 Andela Rajic 
+
 Github - andjelarajic1@gmail.com
 LinkdIn - https://www.linkedin.com/in/andelarajic/
+
+Project link - https://my-portfolio-about-me.netlify.app
