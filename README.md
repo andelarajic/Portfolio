@@ -21,19 +21,11 @@ Portfolio
 
 ## About The Project
 
+Portfolio website is about me, my skills and my inserts . On this website you can see my project also which show my knowledge related to frontend developers. On the portfolio website there are also my contacts where you can contact me for further collaborations. 
+I used Api request for (mala rec stefanova) so you can write a name og city to see what is the current temperature in that city.
 
 
-
-
-
-
-
-
-
-
-
-
-
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 
 ### Built With
