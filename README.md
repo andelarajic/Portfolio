@@ -2,7 +2,7 @@ Portfolio
 ======
 
 
-## Portfolio is websidan about me and my skills. You can se my projects there also.
+### Portfolio is websidan about me and my skills. You can se my projects there also.
 
 
 <details open="open">
@@ -12,7 +12,7 @@ Portfolio
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </li>
   </ol>
