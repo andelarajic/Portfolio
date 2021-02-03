@@ -2,11 +2,13 @@ import React, {useState} from "react"
 import axios from 'axios';
 import "../Weather/Weather.css"
 
+
 const Weather = () => {
     var [temperature, setTemperature] = useState("");
     var [city, setCity] = useState("");
     var [desc, setDesc] = useState("");
     var [show, setShow] = useState(false);
+    var [icon,setIcon] = useState("");
 
     const getWeatherData = (city) => {
         axios({
@@ -18,12 +20,16 @@ const Weather = () => {
             var temp = response.data.main.temp - 273.15
             setTemperature(Math.round((temp) * 100) / 100);
             setDesc(response.data.weather[0].main);
+            setIcon(`http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`)
             setShow(true);
         })
         .catch((error) => {
             setShow(false)
         });
     };
+
+
+
    
     function showTemp() {
         if(show){
@@ -31,11 +37,13 @@ const Weather = () => {
                 <div>
                     <h1 className="City">{city}</h1>
                     <h2 className="Temp">{temperature} ℃ </h2>
+                    <img className="WeatherIcon" src={icon} alt="icon"></img>
                     <h3 className="Desc">{desc}</h3>
                 </div>
             )
         }
     }
+
 
     return (
         <div className="Weather">

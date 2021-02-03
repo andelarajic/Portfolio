@@ -11,9 +11,9 @@
 .Card {
     box-shadow: 0 4px 8px 0 #f9f9f9;
     transition: 0.3s;
-    opacity: 0.8;
-   background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+  backdrop-filter: blur(20px);
+   background-color: rgb(255, 255, 255,0.06);
+    border-radius: 8px;
 }
 .Card:hover {
     box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.879);
@@ -29,18 +29,21 @@
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    color: #fff;
   }
 
   .Temp {
     font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
     font-size: 20px;
     text-align: center;
+    color: #fff;
   }
   .Desc {
     font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
+    color: #fff;
   }
   .Input2 {
     
@@ -48,17 +51,45 @@
       font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
       text-decoration: uppercase;
     border:none;
-      color:black;
+      color:#fff;
       font-size:14px;
   }
 
   .Input1 {
     border:none;
+    backdrop-filter: blur(20px);
+    background-color: rgb(255, 255, 255,0.06);
     text-decoration: none;
     font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
     text-decoration: uppercase;
-    color:black;
+    color:#fff;
     border-bottom: 2px solid black;
     font-size:14px;
     margin: 0 9px;
+  }
+  ::-webkit-input-placeholder { 
+    color: white;
+  }
+
+  .WeatherIcon {
+margin-left: 50px;
+width: 70px;
+ margin-top:-15px;
+ margin-bottom: -10px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .City {
+      font-size: 10px;
+    }
+    .Temp {
+      font-size: 12px;
+    }
+    .WeatherIcon {
+      width: 42px;
+      margin-left: 62px;
+    }
+    .Desc {
+      font-size: 10px;
+    }
   }
