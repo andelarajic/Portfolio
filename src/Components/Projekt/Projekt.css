@@ -5,66 +5,67 @@
 }
 
 .Text {
-  padding:60px 0 30px;
-text-decoration: none;
-text-align: center;
-color:#3b3838;
+  padding: 60px 0 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #3b3838;
 }
 
 .hr {
   background-color: #c5c5c5;
-    width: 6%;
-    height: 0.0625em;
-    border: none;
-    margin-left: 47%;
-    margin-bottom: 1.5625em;
+  width: 6%;
+  height: 0.0625em;
+  border: none;
+  margin-left: 47%;
+  margin-bottom: 1.5625em;
 }
 
 .Image {
   display: flex;
- max-width: 800px;
- margin-left: auto;
- margin-right: auto;
-margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 
 }
 
 
 
 .hr2 {
-  border:1px solid #f1f1f1;
+  border: 1px solid #f1f1f1;
 }
 
 .Source {
   display: flex;
   text-decoration: none;
- width: 90px;
- margin:0 60px 40px;
+  width: 90px;
+  margin: 0 60px 40px;
   border: 1px solid black;
   padding: 10px;
-  color:#252525;
+  color: #252525;
   font-size: 20px;
-  font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
- 
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+
 }
 
 .Source:hover {
   background-color: #252525;
-  color: #fff;;
+  color: #fff;
+  ;
 }
 
 
 @media only screen and (max-width: 900px) {
-    .Image {
-      width: 300px;
-    }
- 
+  .Image {
+    width: 300px;
+  }
+
 }
 
 @media only screen and (max-width: 650px) {
- .Source{
-   font-size: 10px;
-   width: 45px;
- }
+  .Source {
+    font-size: 10px;
+    width: 45px;
+  }
 
 }

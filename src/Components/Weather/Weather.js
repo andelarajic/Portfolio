@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, { useState } from "react"
 import axios from 'axios';
 import "../Weather/Weather.css"
 
@@ -8,31 +8,31 @@ const Weather = () => {
     var [city, setCity] = useState("");
     var [desc, setDesc] = useState("");
     var [show, setShow] = useState(false);
-    var [icon,setIcon] = useState("");
+    var [icon, setIcon] = useState("");
 
     const getWeatherData = (city) => {
         axios({
             method: "GET",
             url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=e0e9386da1077c731a4790d52287872a`
         })
-        .then((response) => {
-            setCity(city)
-            var temp = response.data.main.temp - 273.15
-            setTemperature(Math.round((temp) * 100) / 100);
-            setDesc(response.data.weather[0].main);
-            setIcon(`http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`)
-            setShow(true);
-        })
-        .catch((error) => {
-            setShow(false)
-        });
+            .then((response) => {
+                setCity(city)
+                var temp = response.data.main.temp - 273.15
+                setTemperature(Math.round((temp) * 100) / 100);
+                setDesc(response.data.weather[0].main);
+                setIcon(`http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`)
+                setShow(true);
+            })
+            .catch((error) => {
+                setShow(false)
+            });
     };
 
 
 
-   
+
     function showTemp() {
-        if(show){
+        if (show) {
             return (
                 <div>
                     <h1 className="City">{city}</h1>
@@ -47,11 +47,11 @@ const Weather = () => {
 
     return (
         <div className="Weather">
-       <div className="Card">
-                    <input className="Input1" type="text" placeholder="Enter Location" onChange={(e) => getWeatherData(e.target.value)} />
-                    {showTemp()}
-                </div>
-                </div>
+            <div className="Card">
+                <input className="Input1" type="text" placeholder="Enter Location" onChange={(e) => getWeatherData(e.target.value)} />
+                {showTemp()}
+            </div>
+        </div>
     )
 };
 

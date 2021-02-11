@@ -1,135 +1,140 @@
 .Header {
-    background-size: cover;
-        height: 700px;
-        background-image: url(/src/Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
-    background-color:#d24d57;
-    background-blend-mode: multiply;
-    background-position: 30% 20%;
-    }
+  background-size: cover;
+  height: 700px;
+  background-image: url(/src/Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+  background-color: #d24d57;
+  background-blend-mode: multiply;
+  background-position: 30% 20%;
+}
 
 .Headerh1 {
-        position: relative;
-        margin-top:0;
-        color:white;
-        text-align: center;
-        font-size: 60px;
-        text-transform: uppercase;
-        top:180px;
-        font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    }
+  position: relative;
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  top: 180px;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+}
 
-     .Headerh2{
-        position: relative;
-        margin-top:0;
-        color:white;
-        text-align: center;
-        font-size: 25px;
-        top:200px;
-        font-family: "ff-meta-serif-web-pro", Georgia, serif;
-        
-    }
-    .button1 {
-       width: 200px;
-       text-align: center;
-        margin: 300px auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding: 25px 90px;
-        background-color:transparent;
-        opacity: 0.9;
-        border: 2px solid #fff;
-        color: #fff;
-        text-decoration: none;
-        font-family: "ff-meta-serif-web-pro", Georgia, serif;
-        font-size: 22px;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        text-transform: uppercase;
-        cursor:pointer;
+.Headerh2 {
+  position: relative;
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  top: 200px;
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
 
-    }
-    
-    .button1:hover {
-        background-color: #fff;
-        color: #d24d57;
-    }
+}
 
-  
-    @media only screen and (max-width: 900px) {
+.button1 {
+  width: 200px;
+  text-align: center;
+  margin: 300px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 25px 90px;
+  background-color: transparent;
+  opacity: 0.9;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  font-size: 22px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+.button1:hover {
+  background-color: #fff;
+  color: #d24d57;
+}
+
+
+@media only screen and (max-width: 900px) {
   .Header1 h2 {
-      font-size: 20px;
+    font-size: 20px;
   }
+
   .button1 {
     padding: 15px 40px;
     margin-top: 230px;
   }
-    
+
 }
 
 .Weather {
-    margin-top:0;
-    float: right;
-    display: flex;
-    flex-direction: column;
-    height: 0;
-    border:white;
-    background-color: white;
+  margin-top: 0;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  border: white;
+  background-color: white;
 }
 
 .Input {
-    background-color:#fff;
-    opacity: 0.9;
-   border:none;
+  background-color: #fff;
+  opacity: 0.9;
+  border: none;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 #f9f9f9;
-    transition: 0.3s;
-    opacity: 0.7;
-   background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+  box-shadow: 0 4px 8px 0 #f9f9f9;
+  transition: 0.3s;
+  opacity: 0.7;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
 }
+
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.879);
-  }
+  box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.879);
+}
 
-  .City {
-    font-family:"brandon-grotesque", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-  }
+.City {
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
 
-  .Temp {
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-  }
-  .Desc {
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  .Input2 {
-    
-      text-decoration: none;
-      font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-      text-decoration: uppercase;
-    border:none;
-      color:black;
-      font-size:14px;
-  }
+.Temp {
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 
-  .Input1 {
-    border:none;
-    text-decoration: none;
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    text-decoration: uppercase;
-    color:black;
-    border-bottom: 2px solid black;
-    font-size:14px;
-    margin: 0 9px;
-  }
+.Desc {
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Input2 {
+
+  text-decoration: none;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  text-decoration: uppercase;
+  border: none;
+  color: black;
+  font-size: 14px;
+}
+
+.Input1 {
+  border: none;
+  text-decoration: none;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  text-decoration: uppercase;
+  color: black;
+  border-bottom: 2px solid black;
+  font-size: 14px;
+  margin: 0 9px;
+}

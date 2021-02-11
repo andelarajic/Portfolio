@@ -1,96 +1,104 @@
 .Weather {
-    margin-top:0;
-    float: right;
-    display: flex;
-    flex-direction: column;
-    height: 0;
-    border:white;
-    background-color: white;
+  margin-top: 0;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  border: white;
+  background-color: white;
 }
 
 .Card {
-    box-shadow: 0 4px 8px 0 #f9f9f9;
-    transition: 0.3s;
+  box-shadow: 0 4px 8px 0 #f9f9f9;
+  transition: 0.3s;
   backdrop-filter: blur(20px);
-   background-color: rgb(255, 255, 255,0.06);
-    border-radius: 8px;
-    text-align: center;
+  background-color: rgb(255, 255, 255, 0.06);
+  border-radius: 8px;
+  text-align: center;
 }
-.Card:hover {
-    box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.879);
-  }
 
-  .Input {
-    background-color:#fff;
-    opacity: 0.9;
-   border:none;
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(247, 244, 244, 0.879);
 }
+
+.Input {
+  background-color: #fff;
+  opacity: 0.9;
+  border: none;
+}
+
+.City {
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.Temp {
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.Desc {
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.Input2 {
+
+  text-decoration: none;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  text-decoration: uppercase;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Input1 {
+  border: none;
+  backdrop-filter: blur(20px);
+  background-color: rgb(255, 255, 255, 0.06);
+  text-decoration: none;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  text-decoration: uppercase;
+  color: #fff;
+  border-bottom: 2px solid black;
+  font-size: 14px;
+  margin: 0 9px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.WeatherIcon {
+
+  width: 70px;
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 800px) {
   .City {
-    font-family:"brandon-grotesque", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
+    font-size: 10px;
   }
 
   .Temp {
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
-  }
-  .Desc {
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-  }
-  .Input2 {
-    
-      text-decoration: none;
-      font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-      text-decoration: uppercase;
-    border:none;
-      color:#fff;
-      font-size:14px;
-  }
-
-  .Input1 {
-    border:none;
-    backdrop-filter: blur(20px);
-    background-color: rgb(255, 255, 255,0.06);
-    text-decoration: none;
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
-    text-decoration: uppercase;
-    color:#fff;
-    border-bottom: 2px solid black;
-    font-size:14px;
-    margin: 0 9px;
-  }
-  ::-webkit-input-placeholder { 
-    color: white;
+    font-size: 12px;
   }
 
   .WeatherIcon {
+    width: 42px;
 
-width: 70px;
- margin-top:-15px;
- margin-bottom: -10px;
   }
 
-  @media only screen and (max-width: 800px) {
-    .City {
-      font-size: 10px;
-    }
-    .Temp {
-      font-size: 12px;
-    }
-    .WeatherIcon {
-      width: 42px;
-      
-    }
-    .Desc {
-      font-size: 10px;
-    }
+  .Desc {
+    font-size: 10px;
   }
+}

@@ -1,9 +1,9 @@
 .AboutMe {
- height: 500px;
- background-color: #d24d57;
- margin-bottom: -30px;
-display: flex;
-flex-direction:row;
+    height: 500px;
+    background-color: #d24d57;
+    margin-bottom: -30px;
+    display: flex;
+    flex-direction: row;
 
 
 
@@ -20,27 +20,28 @@ flex-direction:row;
 
 .AboutText2 {
     text-align: center;
-color: #fff;
- 
+    color: #fff;
+
 }
 
 
 .MyImage {
-margin:50px;
-  border-radius: 60%;
+    margin: 50px;
+    border-radius: 60%;
 }
 
 
-@media screen and (max-width: 950px) {
-    }
-    .MyImage {
-        width: 300px;
-        height: 300px;
-        margin-top: 100px;
-    }
-    .AboutText2 {
-        margin:80px;
-    }
+@media screen and (max-width: 950px) {}
+
+.MyImage {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.AboutText2 {
+    margin: 80px;
+}
 
 
 
@@ -50,16 +51,17 @@ margin:50px;
         width: 250px;
         height: 250px;
         margin-top: 120px;
-}
-.AboutText2 {
-    margin:80px;
-}
+    }
+
+    .AboutText2 {
+        margin: 80px;
+    }
 
 }
 
 @media screen and (max-width: 720px) {
     .AboutText2 {
-        margin:50px;
+        margin: 50px;
     }
 }
 
@@ -68,23 +70,24 @@ margin:50px;
         display: flex;
         flex-direction: column;
     }
+
     .MyImage {
         align-self: center;
         width: 200px;
         height: 200px;
         margin-top: 30px;
-     }
-        
-     .AboutText1 {
-         position: relative;
-         top:-110px;
-     }
-   
-     .AboutText2 {
-       
-        position: relative;
-        top:-150px;
-      
     }
-        
+
+    .AboutText1 {
+        position: relative;
+        top: -110px;
+    }
+
+    .AboutText2 {
+
+        position: relative;
+        top: -150px;
+
+    }
+
 }
