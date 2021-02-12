@@ -38,4 +38,4 @@ Andela Rajic <br/>
 Github - andjelarajic1@gmail.com <br/>
 LinkdIn - https://www.linkedin.com/in/andelarajic/ <br/>
 
-Project link - https://my-portfolio-about-me.netlify.app
+Project link - https://portfolio-61eae.web.app/
