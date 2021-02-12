@@ -35,7 +35,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Contact Information
 
 Andela Rajic <br/>
-Github - andjelarajic1@gmail.com <br/>
+Github - https://github.com/andelarajic <br/>
 LinkdIn - https://www.linkedin.com/in/andelarajic/ <br/>
 
 Project link - https://portfolio-61eae.web.app/
