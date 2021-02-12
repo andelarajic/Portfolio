@@ -4,11 +4,11 @@ import "../Weather/Weather.css"
 
 
 const Weather = () => {
-    var [temperature, setTemperature] = useState("");
-    var [city, setCity] = useState("");
-    var [desc, setDesc] = useState("");
-    var [show, setShow] = useState(false);
-    var [icon, setIcon] = useState("");
+    let [temperature, setTemperature] = useState("");
+    let [city, setCity] = useState("");
+    let [desc, setDesc] = useState("");
+    let [show, setShow] = useState(false);
+    let [icon, setIcon] = useState("");
 
     const getWeatherData = (city) => {
         axios({

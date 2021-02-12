@@ -5,9 +5,7 @@ import { Link } from 'react-scroll'
 
 const Header = () => {
 
-
     return (
-
         <div className="Header">
             <Weather />
             <h1 className="Headerh1">Andela Rajic</h1>
