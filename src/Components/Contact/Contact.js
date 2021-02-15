@@ -1,7 +1,7 @@
 import React from "react"
 import "../Contact/Contact.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import ScrollUpButton from "react-scroll-up-button";
 
 
 
@@ -16,6 +16,7 @@ const contact = () => {
                 <FontAwesomeIcon icon={['fab', 'github']} size="3x" /></a>
             <a className="active" href="https://twitter.com/AndjelijaRajic">
                 <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" /></a>
+                <ScrollUpButton />
         </section>
     </div>
 };
