@@ -14,7 +14,7 @@ const projekt = () => {
  <h1 className="Text">Star Wars</h1>
             <hr className="hr" />
             <p className="AboutP">Website about Star Wars characters and information about them.</p>
-           <a href="star-wars-2077f.web.app">
+           <a href="https://star-wars-e020c.firebaseapp.com">
            <img className="Image" src={StarWars} alt="StarWars"></img></a> 
             <a className="Source" href="https://github.com/andelarajic/StarWars">
                 <FontAwesomeIcon icon={['fab', 'github']} />Source</a>
