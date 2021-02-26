@@ -3,7 +3,6 @@ import "../../Components/Projekt/Projekt.css"
 import image from "../../Images/Project1.jpg"
 import myWork from "../../Images/Project2.jpg"
 import myProject from "../../Images/Project3.jpg"
-import StarWars from "../../Images/StarWars.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -11,14 +10,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const projekt = () => {
     return (
         <div id="projekt" className="Project">
- <h1 className="Text">Star Wars</h1>
-            <hr className="hr" />
-            <p className="AboutP">Website about Star Wars characters and information about them.</p>
-           <a href="https://star-wars-e020c.firebaseapp.com">
-           <img className="Image" src={StarWars} alt="StarWars"></img></a> 
-            <a className="Source" href="https://github.com/andelarajic/StarWars">
-                <FontAwesomeIcon icon={['fab', 'github']} />Source</a>
-            <hr className="hr2" />
             <h1 className="Text">Gaming History!</h1>
             <hr className="hr" />
             <p className="AboutP">Gaming history is a responsiv website about games that were popular such as Super Mario and Zelda.</p>
